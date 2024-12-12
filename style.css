@@ -1,0 +1,283 @@
+.nav{
+    width: 100%;
+    
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav h3{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.nav button{
+    width: 80px;
+    height: 40px;
+    background-color: #000000;
+    color: gray;
+}
+
+.second{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.second .left button{
+    width: 160px;
+    height: 40px;
+    background-color: #000000;
+    color: gray;
+}
+
+.third{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+.third h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+
+.third p{
+    margin-left: 10px;
+}
+.third .one{
+    width: 30%;
+    height: 300px;
+    
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 4px solid black;
+}
+
+
+
+
+.third .secc{
+    width: 30%;
+    height: 300px;
+   
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 4px solid black;
+}
+
+.third .thirr{
+    width: 30%;
+    height: 300px;
+    
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 4px solid black;
+}
+
+.fourth{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+
+.feature{
+    align-items: center;
+    width: 100%;
+    height: 50px;
+
+}
+.feature h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40%;
+}
+
+.fifth{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.fifth{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+
+.third p{
+    margin-left: 10px;
+}
+
+.fifth1{
+    width: 30%;
+    height: 200px;
+    border-radius: 10px;
+    border: 4px solid black;
+    margin-left: 50px;
+}
+
+.fifth2{
+    width: 30%;
+    height: 200px;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+.fifth3{
+    width: 30%;
+    height: 200px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.six{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+
+.six1{
+    border: 4px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.six2{
+    border: 4px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 200px;
+    
+}
+
+.six3{
+    border: 4px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 200px;
+    
+}
+.sex3 h1{
+    margin-bottom: 50px;
+}
+
+.seven{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+
+}
+
+.sevenleft{
+    width: 40%;
+    height: 200px;
+
+
+
+}
+
+.sevenright{
+    width: 40%;
+    height: 200px;
+}
+
+.sevenleft h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+
+}
+
+.sevenright input{
+    width: 300px;
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.eight{
+    display: flex;
+    width: 100%;
+    
+   
+
+}
+
+.eight1{
+    width: 40%;
+    height: 100%;
+    margin-left: 30px;
+
+}
+.eight2{
+    width: 40%;
+    height: 100%;
+    
+}
+.eight3{
+    width: 40%;
+    height: 100%;
+    
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer h4{
+    margin-right: 100px;
+
+}
+
+@media screen and(max-width:500px){
+    .nav{
+        width: 100%;
+    }
+
+    .second{
+        width: 10%;
+    }
+    .third{
+        width: 10%;
+    }
+
+    .fourth{
+        width: 30%;
+    }
+
+    .fifth{
+        width: 10%;
+    }
+
+    .six{
+        width: 15%;
+    }
+
+    .seven{
+        width: 10%;
+    }
+
+
+    .eight{
+        width: 40%;
+    }
+
+    .footer{
+        width: 30%;
+    }
+}
